@@ -1,5 +1,3 @@
-const PORT = 4000;
-
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
@@ -114,6 +112,6 @@ app.post("/bookings", (req, res) => {
   return res.status(201).send(objData);
 });
 
-const listener = app.listen(PORT, function () {
-  console.log("Your app is listening on port " + listener.address().port);
+const listener = app.listen(process.env.PORT, function () {
+  console.log("Your app is listening on port " + process.env.PORT);
 });
