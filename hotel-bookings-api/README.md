@@ -16,10 +16,10 @@ You should have completed at least Level 1-3 of the Chat Server challenge before
 
 At this first level, your API must allow a client to:
 
-1. Create a new booking
-1. Read all bookings
-1. Read one booking, specified by an ID
-1. Delete a booking, specified by an ID
+1. [x] Create a new booking
+1. [x] Read all bookings
+1. [x] Read one booking, specified by an ID
+1. [x] Delete a booking, specified by an ID
 
 If the booking to be read cannot be found by id, return a 404.
 
@@ -97,9 +97,7 @@ In this case your server should return a status code of 400, and should NOT stor
 
 # 🏝️ Stretch challenges
 
-
 Below are some stretch challenges, have a go at these once you've completed the previous challenges.
-
 
 ## Level 3 (Optional, advanced) - search by date
 
